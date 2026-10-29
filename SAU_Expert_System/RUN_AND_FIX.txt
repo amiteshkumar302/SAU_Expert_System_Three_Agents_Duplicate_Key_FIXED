@@ -1,0 +1,23 @@
+SAU EXPERT SYSTEM - RUN INSTRUCTIONS
+
+1. Install SWI-Prolog and make sure swipl.exe is installed.
+2. Install Python packages:
+   pip install streamlit pyswip
+
+3. From this project folder run:
+   streamlit run streamlit\app.py
+
+Or double-click:
+   run_sau.bat
+
+IMPORTANT:
+- Use this app.py, not an older copy.
+- The app consults prolog/master.pl using an absolute path.
+- The question is sent to Prolog as a Prolog string.
+- The user question and answer are both shown in chat history.
+- University knowledge remains in Prolog.
+
+TEST:
+What are the SAARC countries?
+What is the eligibility for PhD?
+What is the fee for BTech?

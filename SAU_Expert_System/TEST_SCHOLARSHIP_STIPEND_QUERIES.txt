@@ -1,0 +1,17 @@
+Test these in the chatbot (case/grammar variations are intentionally included):
+
+What is PhD stipend?
+phd stipend kitna hai?
+PHD SCHOLARSHIP KITNI HAI
+PhD science student ko kitna stipend milta hai?
+Other stream PhD fellowship?
+Who is eligible for PhD scholarship?
+phd scolarship eligibility kya hai
+Does direct mode PhD get stipend?
+Direct PhD ko fellowship milegi?
+What is PhD travel support?
+Master scholarship?
+masters student ko scholarship milti hai?
+MTech scholarship eligibility?
+MSc stipend hai kya?
+MCA scolarship?

@@ -1,0 +1,23 @@
+TEST THESE QUERIES AFTER RUNNING THE PROJECT
+
+1. What courses are available?
+   -> ALL programmes in course.pl.
+
+2. What master courses are available?
+   -> ONLY postgraduate/master programmes.
+
+3. What is the eligibility for all master programmes?
+   -> EVERY postgraduate programme, once, with its requirements.
+
+4. What is the eligibility for MCA?
+   -> ONLY MCA requirements.
+
+5. What is the eligibility for MTech CSE?
+   -> ONLY MTech CSE requirements.
+
+6. What is the eligibility for MSc Computer Science?
+   -> ONLY MSc Computer Science requirements.
+
+The important fix is that "eligibility" is now checked before the generic
+"admission" synonym. Therefore a question containing "master" + "eligibility"
+cannot accidentally return admission-mode information.

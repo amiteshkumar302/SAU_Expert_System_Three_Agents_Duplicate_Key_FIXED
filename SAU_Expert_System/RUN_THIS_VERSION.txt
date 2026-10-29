@@ -1,0 +1,31 @@
+SAU EXPERT SYSTEM - FINAL UI FIX
+
+1. Extract this ZIP.
+2. Open Command Prompt in:
+   C:\Users\amite\Downloads\SAU_Expert_System\SAU_Expert_System
+
+3. Install Python packages:
+   pip install -r requirements.txt
+
+4. Make sure SWI-Prolog is installed.
+
+5. Start:
+   streamlit run streamlit\app.py
+
+Expected behavior:
+- Text typed in the input box is visible.
+- Press Enter to submit.
+- The submitted user question appears in chat history.
+- The Prolog answer appears immediately below it.
+- The user question is passed safely to Prolog even when it contains
+  apostrophes, quotes, punctuation, spaces, or Unicode.
+- University knowledge remains in Prolog; app.py is only UI/integration.
+
+First test:
+What are the SAARC countries?
+
+Then:
+What is the eligibility for PhD?
+
+Then:
+What is the fee for BTech?

@@ -1,0 +1,17 @@
+Run: swipl -q -s prolog/master.pl -g "ask("PHD STIPAND KITNA HAI?",A),writeln(A),halt."
+
+PhD stipend kitna hai?
+PHD STIPAND KITNA HAI?
+phd stipent
+phd stipend
+PhD fellowship eligibility
+PHD SCHOLARSHIP KITNI HAI?
+PhD direct mode stipend?
+phd स्टाइपेंड कितना है?
+स्टिपेंड पीएचडी (for full Hindi PhD term use phd)
+Masters scholarship?
+MTech scolarship milegi?
+MSc stipend?
+MCA scholorship
+scholarship amount?
+What is financial support for PhD?

@@ -1,0 +1,19 @@
+FIXES IN THIS VERSION
+
+1. "What master courses are available?" now returns only postgraduate/master
+   programmes, not unrelated bachelor or PhD programmes.
+
+2. "What is the eligibility for all master programmes?" now enumerates every
+   postgraduate programme in course.pl exactly once.
+
+3. Each master's programme has explicit eligibility facts. Where the exact
+   current programme-specific percentage/subject requirement is not verified
+   in this knowledge base, the answer says to check the current SAU notice
+   instead of inventing a value.
+
+4. Programme-specific questions such as:
+   - What is MCA eligibility?
+   - What is MTech CSE eligibility?
+   return only that programme's requirements.
+
+5. Duplicate eligibility entries are removed with sort/2 before formatting.

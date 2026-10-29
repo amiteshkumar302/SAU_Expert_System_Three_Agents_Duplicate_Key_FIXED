@@ -1,0 +1,20 @@
+FIXED UI VERSION
+
+Run from the project root:
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Make sure SWI-Prolog is installed and available.
+
+3. Start Streamlit:
+   streamlit run streamlit/app.py
+
+The user question is sent to Prolog through a variable binding:
+ask(Text, Answer)
+
+This avoids errors caused by apostrophes, quotes, or special characters
+inside natural-language questions.
+
+The submitted question is not stored/displayed in the visible chat history;
+only the answer is shown.
